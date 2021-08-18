@@ -1,0 +1,40 @@
+body{
+    background: #c894e6;
+}
+
+.container {
+    border: 1px solid black;
+    width: 95%;
+    height: 90vh;
+    display: flex;
+}
+
+.quotes{
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: black;
+    background-color: bisque;
+    border: 10px solid bisque;
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+@media(max-width: 480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }    
+}
